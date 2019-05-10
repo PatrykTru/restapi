@@ -1,12 +1,11 @@
 
-package guru.springframework.api.restapi.domain;
+package guru.springframework.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Location implements Serializable
-{
+public class Location implements Serializable {
 
     private String street;
     private String city;

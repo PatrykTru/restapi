@@ -1,12 +1,11 @@
 
-package guru.springframework.api.restapi.domain;
+package guru.springframework.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Billing implements Serializable
-{
+public class Billing implements Serializable {
 
     private Card card;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
